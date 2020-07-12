@@ -1,6 +1,6 @@
 #!/bin/bash
 
-compDir=ev3rt-hrp2
+compDir=YS-ev3rt-hrp2
 appName=Sample
 
 rm ~/EV3RT/$compDir/sdk/workspace/app
