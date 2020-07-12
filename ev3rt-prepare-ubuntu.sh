@@ -59,6 +59,6 @@ cd ${WORK_DIR}
 wget "${GCC_ARM_URL}"
 tar -xvvf `basename ${GCC_ARM_URL}` -C ${GCC_ARM_DIR}
 echo export PATH=\$PATH:${GCC_ARM_DIR}/gcc-arm-none-eabi-${GCC_ARM_VER}/bin > /etc/profile.d/ev3rt.sh
-
+sudo apt install curl
 echo Done. Please reboot or logout.
 
