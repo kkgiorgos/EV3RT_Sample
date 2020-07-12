@@ -1,0 +1,17 @@
+[
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.action.tasks.runTask",
+        "args": "uploadBT"
+    },
+    {
+        "key": "f7",
+        "command": "workbench.action.tasks.runTask",
+        "args": "uploadUSB"
+    }
+]
