@@ -21,7 +21,7 @@ cd $path
 cp -r ~/EV3RT/$compDir/sdk/workspace/app .
 mv app $appName
 
-cp -rv $path/RUN  /media/$USER/EV3RT/ev3rt/apps
+cp -rv $path/$appName  /media/$USER/EV3RT/ev3rt/apps
 
 rm ~/EV3RT/$compDir/sdk/workspace/app
 rm -rf ~/EV3RT/$compDir/sdk/workspace/project
